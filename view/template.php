@@ -6,12 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Отправка заявок</title>
-    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 <body>
 <main id="app">
     <?= $this->arguments['content'] ?>
 </main>
-<script src="/resources/js/main.js"></script>
+<script src="https://unpkg.com/imask"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
