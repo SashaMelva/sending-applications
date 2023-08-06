@@ -5,7 +5,7 @@ namespace App\Services;
 class View
 {
     public function __construct(
-        private ViewPath $viewPath,
+        private string $viewPath,
         private array    $arguments = []
     )
     {
@@ -13,7 +13,7 @@ class View
 
     public function __toString(): string
     {
-        return $this->getRenderedFileAsString($this->viewPath->value);
+        return $this->getRenderedFileAsString($this->viewPath);
     }
 
     /** Рендеринг страницы */
